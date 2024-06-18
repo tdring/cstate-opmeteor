@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Service Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -97,7 +97,7 @@ defaultContentLanguage: en
 #
 # Broken example:
 # baseUrl: /
-baseURL: https://example.com
+baseURL: http://status.opmeteor.co.uk
 
 # For features like Last modified, you
 # need to use a Git repository. If you
@@ -158,21 +158,13 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
+    - name: Voice Services
       category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
+    - name: Mapping Services
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Blue Book Service
       category: Uncategorized
-
+      link: https://bluebook.opmeteor.co.uk/
   # What date format to use?
   #
   # Hugo formatting docs:
