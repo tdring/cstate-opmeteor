@@ -2,7 +2,7 @@ title: Service Status
 buildFuture: true
 defaultContentLanguage: en
 languageCode: en
-baseURL: https://status.opmeteor.co.uk
+baseURL: https://status.opmeteor.co.uk/layouts
 params:
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
