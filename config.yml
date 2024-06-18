@@ -1,0 +1,29 @@
+title: Service Status
+buildFuture: true
+defaultContentLanguage: en
+languageCode: en
+baseURL: http://status.opmeteor.co.uk
+params:
+  shortDateFormat: 15:04 — Jan 2
+  down: "#e60000"
+  systems:
+    - name: Voice
+      description: PTT Voice Service
+      category: Main Services
+  dateFormat: January 2, 2006 at 3:04 PM
+  brand: "#0a0c0f"
+  headerTextColor: black
+  logo: /img/eaa18e02-73e5-4d99-8be4-3e612ecf7b06.jpg
+  incidentPostsPerPage: 4
+  googleAnalytics: UA-00000000-1
+  alwaysKeepBrandColor: false
+  disrupted: "#cc4400"
+  notice: "#24478f"
+  incidentHistoryFormat: monthly
+  disableIncidentHistory: true
+  ok: "#008000"
+  categories:
+    - name: Main Services
+      closed: true
+  description: This is a demo- not yet valid
+  enableCustomHTML: false
