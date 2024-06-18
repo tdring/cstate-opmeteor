@@ -109,7 +109,7 @@ baseURL: http://status.opmeteor.co.uk
 #
 # We recommend to keep this at `true`.
 # BOOLEAN; `true`, `false`
-enableGitInfo: false
+enableGitInfo: true
 
 
 ############################################################
